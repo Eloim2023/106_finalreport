@@ -1,0 +1,119 @@
+h1{
+    color: rgb(243, 246, 249);
+    text-align: center;
+    background-color: #333;
+    padding-bottom: 5px;
+
+}
+h3{
+    color:rgb(44, 86, 98);
+    text-align: center;
+    font-weight: 400;
+
+}
+
+main{
+    display:flex;
+    min-height: calc(100vh - 62px);
+    background-image: url('https://images.unsplash.com/photo-1680001657332-2f2afbc90436?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60');
+    background-size: cover;
+}
+
+#list{
+    min-height: 60px;
+    flex: 7;
+    position:relative;
+
+}
+.btn-details{
+    position:absolute;
+    top:5px;
+    right:10px;
+}
+
+#form{
+    background-color: rgb(185, 183, 187);
+    min-height: 60px;
+    flex:3;
+    padding:5px 50px;
+    border: 1px solid#464646;
+    box-shadow: -4px 0 -2 6px rgb(99, 118, 132);
+}
+
+.not-important{
+    font-size: 35px;
+    font-weight: 200;
+    color: #6a6a6b;
+    cursor: pointer;
+
+}
+
+.not-important:hover{
+    color: tomato;
+}
+
+.important{
+    font-size: 35px;
+    cursor: pointer;
+    color: tomato;
+}
+.important:hover{
+    color:rgb(202,95,77);
+}
+#pendingtasks{
+    padding: 10px 30px;
+}
+
+.task{
+    padding:5px 20px;
+    display:flex;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.782);
+    align-items: center;
+    
+}
+
+.task i{
+    margin-right: 10px;
+}
+
+.task .info{
+    flex:5;
+
+}
+
+.task .info h5{
+    margin: 5px 0px;
+
+}
+
+.task .info p{
+    margin: 0;
+}
+
+.task label {
+    flex:1;
+
+}
+
+.task .dates{
+    flex:1;
+}
+
+task.dates label{
+    display:block;
+}
+
+.hide{
+    display:none;
+}
+
+.iDelete{
+    font-size:20px;
+    cursor:pointer;
+    color:#a49c9c;
+}
+.iDelete:hover{
+    color:red;
+}
